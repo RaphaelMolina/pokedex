@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/img/pikachu.png">
+    <title>Pokédex</title>
+    
+    <!-- Normalize CSS padroniza o CSS para os navegadores (Servidor CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Fonts Google Roboto (Servidor CDN) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS local -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/details.css">
+</head>
+<body>
+    <section class="content">
+        <h1>Pokédex</h1>
+        <ol id="pokemonList" class="pokemons">
+        <!-- Pokemons here -->
+        </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                Load More
+            </button>
+        </div>
+    </section>
+    <div id="myModal" class="modal"></div>
+    
+
+    <!-- JS local -->
+    <script src="/assets/js/pokemon-model.js"></script>
+    <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/details.js"></script>
+    <!-- API = Servidor que serve dados 
+        
+        Requisição HTTP
+    URL: https://pokeapi.co/api/v2/pokemon
+    URI: https://pokeapi.co/api/v2/
+    endpoint: pokemon
+    ${Endereço IP e Porta}/{$PATH = Caminho de identificação do recurso} 
+    IP e Porta: https://pokeapi.co
+    PATH: /api/v2/pokemon
+
+    Request Method: GET | POST | PUT | DELETE | PATCH
+    GET: Receber dados de um Resource(Select). https://pokeapi.co/api/v2/pokemon/${id} ou https://pokeapi.co/api/v2/pokemon/1
+    POST: Enviar dados ou informações para serem processadas por um Resource(Insert). https://pokeapi.co/api/v2/pokemon/${id} ou https://pokeapi.co/api/v2/pokemon/1
+    PUT: Atualizar dados de um Resource(Update).
+    DELETE: Deletar um Resource(Delete).
+    PATCH: Correção.
+
+    QueryString: ?limit=10&offset=0 = https://pokeapi.co/api/v2/pokemon?limit=10&offset=0
+
+    Request Headers
+        Configuração Exemplo: accept-language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+        content-type: application/json
+    Response Headers
+        Configuração
+    
+    POST ou PUT:
+        Request Headers
+            contect-type: application/json
+        
+        Request Body{
+            "name": "Novo Pokemon"
+        }
+        Body = Corpo da requisição ou da resposta.
+    
+    Resposta:
+        Status Code Exemplo: https://restfulapi.net/http-status-codes/ dog e cat
+        Response Headers
+        Response Body
+    -->
+</body>
+
+</html>
