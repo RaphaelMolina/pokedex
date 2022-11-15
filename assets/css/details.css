@@ -27,7 +27,7 @@
     /* 15% from the top and centered */
     border: 1px solid #888;
     width: 70%;
-    background-image: url(/assets/img/fundoBola.png);
+    background-image: url(assets/img/fundoBola.png);
     background-size: 23rem;
     background-repeat: no-repeat;
     background-position: top;
