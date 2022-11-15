@@ -1,5 +1,5 @@
-# Projeto Pokédex do Bootcamp Orange Tech + | Banco Iter. <img src="https://hermes.digitalinnovation.one/tracks/59417914-c4ce-4bf8-b802-f1c1985a07fa.png" width="100px">
+# Projeto Pokédex do Bootcamp Orange Tech + | Banco Iter. <img src="assets/img/logoOrangeTech.png" width="100px">
 
-### Tecnologias utilizadas JavaScript, HTML, CSS e consumo da API Pokeapi RestFull.
+### Tecnologias utilizadas JavaScript, HTML, CSS <img src="assets/img/Logos.png" width="200px"> e consumo da API Pokeapi RestFull.<img src="assets/img/logoPokemon.png" width="300px">
 <br>
 Acesse o Projeto através do link: <a href="https://raphaelmolina.github.io/pokedex">raphaelmolina.github.io/pokedex</a>
