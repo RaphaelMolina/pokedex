@@ -14,7 +14,7 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #FFF;
-    background-image: url(assets/img/pokeball1.png);
+    background-image: url('../img/Pokeball.png');
     background-size: 6.7rem;
     background-repeat: no-repeat;
     background-position: right top;

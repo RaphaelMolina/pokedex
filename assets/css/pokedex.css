@@ -67,7 +67,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
-    background-image: url(/assets/img/fundoBola.png);
+    background-image: url('../img/fundoPokeball.png');
     background-size: 6rem;
     background-repeat: no-repeat;
     background-position: 8rem 4rem;
